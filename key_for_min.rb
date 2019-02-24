@@ -4,7 +4,7 @@ def key_for_min_value(hash)
   keys = []
 
 if hash.length == 0
-  nil 
+  return nil 
 end
 
 
