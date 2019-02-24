@@ -1,7 +1,13 @@
 
 def key_for_min_value(hash)
-test = []
-keys = []
+  test = []
+  keys = []
+
+if hash.length == 0
+  nil 
+end
+
+
 hash.collect do |key, value|
 test << value
 keys << key
